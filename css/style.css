@@ -250,7 +250,7 @@ body {
 .card .input-container .bar:before, .card .input-container .bar:after {
   content: '';
   position: absolute;
-  background: yellow; //just changed this
+  background: #ffd700; //just changed this
   width: 0;
   height: 2px;
   -webkit-transition: .2s ease;
@@ -296,7 +296,7 @@ body {
   top: 50%;
   left: 50%;
   display: block;
-  background: yellow;
+  background: #ffd700;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -306,7 +306,7 @@ body {
   transition: .3s ease;
 }
 .card .button-container button:hover, .card .button-container button:active, .card .button-container button:focus {
-  border-color: yellow; //changed from #ed2553
+  border-color: #ffd700; //changed from #ed2553
 }
 .card .button-container button:hover span, .card .button-container button:active span, .card .button-container button:focus span {
   color: ##ffd700; //changed from pink
