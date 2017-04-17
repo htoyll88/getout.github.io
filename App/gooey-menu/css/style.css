@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: black;
 }
 
 h1, h2, h3, h4 {
@@ -29,14 +29,17 @@ h1 {
 }
 
 .menu-item, .menu-open-button {
-  background: yellow;/*#ff4081;*/
+  background: #ffd700;/*#ff4081;*/
   border-radius: 100%;
   width: 80px;
   height: 80px;
+  box-shadow: 10px 5px 5px black;
   margin-left: -40px;
   position: absolute;
   top: 20px;
   color: white;
+  font-family: 'Bahiana', cursive;
+  font-size: 30px;
   text-align: center;
   line-height: 80px;
   -webkit-transform: translate3d(0, 0, 0);
